@@ -1,0 +1,1038 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Raleway";
+}
+h1, h2, h3, h4{
+ margin: 0;
+ padding: 0;
+}
+
+.intro {
+ position: relative;
+ min-height: 100vh;
+ width: 100%;
+
+ background-image: url(image/bag.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+
+ background-blend-mode: color;
+ background-color: rgba(255, 255, 255, 0.5);
+}
+
+.logo{
+ display: flex;
+ padding-top: 2%;
+ margin-left: 6.8%;
+ width: 5%;
+}
+
+
+.logo p{
+ font-size: 120%;
+ letter-spacing: 0.175em;
+ font-weight: 500;
+ text-decoration: solid underline 1px;
+}
+
+.topnav a{
+ text-align: center;
+ padding-left: 70px;
+}
+  
+.topnav .icon{
+ display: none;
+}
+
+.intro a{
+ text-decoration: none;
+ color: black;
+ font-weight: 500;
+ padding-left: 1%;
+ font-size: 110%;
+ padding-left: 5%;
+}
+
+
+nav{
+ margin-left: 47%;
+ margin-top: -2%;
+ margin-bottom: 1%;
+}
+
+ header hr{
+ max-width: 100%;
+ border-width: 1px;
+ color: #5f5f5f;
+ border-style: solid;
+ 
+}
+
+.box{
+ display: flex;
+ justify-content: space-between;
+width: 80%;
+height: 60%;
+ margin-left: 13%;
+ margin-right: 7%;
+ padding-top: 4%;
+}
+
+.child{
+ width: 40%;
+ height: 80%;
+}
+
+
+.text1{
+  padding-top: 8%;
+}
+
+.text1 h2{
+    font-weight: 700;
+    font-size: 130%;
+    letter-spacing: 0.5em;
+    color: #691919;
+    padding-bottom: 6%;
+}
+
+.text1 p{
+    font-weight: 600;
+    letter-spacing: 0.07em;
+}
+
+.child img{
+    max-width: 96%;
+    max-height: 96%;
+}
+
+.language{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+}
+
+.lp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b{
+    padding-right: 40%;
+}
+.b a{
+font-size: 85%;
+font-weight: 600;
+}
+
+main{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    background-blend-mode: color;
+    background-color: rgba(221, 221, 221, 0.45);
+}
+
+   
+   
+ .menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+     width: 92%;
+     margin-left: 4%;
+     margin-right: 4%;
+ }
+ 
+ .logo1{
+    display: flex;
+    padding-top: 1%;
+    margin-left: 2%;
+    width: 5%;
+   }
+   
+   .logo1 p{
+    font-size: 120%;
+    letter-spacing: 0.175em;
+    font-weight: 500;
+    text-decoration: solid underline 1px;
+   }
+
+
+ .mn1 a{
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.23em;
+    color: black;
+    font-size: 130%;
+}
+
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 6%;
+    border: 1px solid black;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.food{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 20%;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.food img{
+    max-width: 90%;
+    max-height: 90%;
+    align-self: center;
+    padding-top: 5%;
+}
+
+.dish h2{
+ font-weight: 600;
+ font-size: 85%;
+ letter-spacing: 0.1em;
+ padding-top: 11%;
+ padding-bottom: 10%;
+}
+
+.dish p{
+ font-weight: 500;
+ font-size: 85%;
+ letter-spacing: 0.1em;
+ color: #626262;
+ padding-bottom: 20%;
+}
+
+.dish{
+ padding-left: 5.4%;
+}
+
+main hr{
+ width: 40%;
+ transform: rotate(90deg);
+ color: black;
+ border-style: solid;
+}
+
+.pn{
+    display: flex;
+    width: 98%;
+}
+
+.line1{
+    padding-left: 2%;
+    padding-top: 6.5%;
+}
+
+.line2{
+    padding-top: 6.5%;
+}
+
+.line1 img{
+ height: 80%;
+}
+
+
+.line2 img{
+    height: 80%;
+   }
+
+   .au{
+    display: flex;
+    justify-content: space-between;
+    width: 4%;
+    margin-left: 2% ;
+    margin-right: 6%;
+    padding-top: 1%;
+}
+
+.au a{
+ font-size: 85%;
+ font-weight: 600; 
+ text-decoration: none;
+ color: black;
+}
+
+
+footer{
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    background-blend-mode: color;
+    background: rgba(0, 0, 0, 0.73);
+}
+
+.podval{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5% ;
+    margin-right: 5%;
+    padding-top: 6%;
+}
+
+.kl{
+    max-width: 15%;
+}
+.logo2{
+    display: flex;
+    width: 5%; 
+    text-decoration: none;
+    color: white; 
+    padding-top: 30%;
+   }
+   
+   .logo2 p{
+    font-size: 120%;
+    letter-spacing: 0.175em;
+    font-weight: 300;
+    text-decoration: solid underline 1px;
+   }
+
+ .podval a{
+color: white;
+text-decoration: none;
+font-size: 90%;
+font-family: "Source Sans Pro";
+letter-spacing: 0.05em;
+font-weight: 400;
+ }
+
+.number p{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+    font-family: "Source Sans Pro";
+    letter-spacing: 0.05em;
+    font-weight: 400;
+}
+
+.post p{
+    color: white;
+    text-decoration: none;
+    font-size: 85%;
+    font-family: "Source Sans Pro";
+    letter-spacing: 0.05em;
+    font-weight: 100;
+}
+
+.rights p{
+    color: white;
+    text-decoration: none;
+    font-size: 75%;
+    font-family: "Source Sans Pro";
+    letter-spacing: 0.05em;
+    font-weight: 300;
+}
+
+.link1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.link2{
+    display: flex;
+    flex-direction: column;
+}
+
+.link1 a{
+    padding-bottom: 17%;
+}
+
+.link2 a{
+    padding-bottom: 23%;
+}
+
+.call{
+padding-bottom: 10%;
+}
+
+.post{
+    padding-bottom: 45%;
+}
+
+.number{
+    padding-bottom: 5%;
+}
+ 
+body{
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+@media screen and (max-width: 1323px) {
+    .line1{
+        padding-top: 6%;
+    }
+    
+    .line2{
+        padding-top: 6%;
+    }   
+}
+
+  
+@media screen and (max-width: 1300px) {
+nav{
+    margin-top: -2%;
+}
+   }
+
+@media screen and (max-width: 1286px) {
+    .line1{
+        padding-top: 6%;
+    }
+    
+    .line2{
+        padding-top: 6%;
+    }   
+
+    .line1 img{
+height: 77%;
+    }
+
+    .line2 img{
+height: 77%;
+    }
+
+    .kl{
+        max-width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 1255px) {
+  .child img{
+      padding-top: 5%;
+  }
+}
+
+@media screen and (max-width: 1235px) {
+ .text1 p{
+font-size: 100%;
+ }
+  }
+
+  @media screen and (max-width: 1186px) {
+    .text1 p{
+        font-size: 96%;
+         }
+  }
+
+  @media screen and (max-width: 1173px) {
+
+    .line1 img{
+height: 75%;
+    }
+
+    .line2 img{
+height: 75%;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .child img{
+        padding-top: 6%;
+    }
+
+        .line1 img{
+    height: 74%;
+        }
+    
+        .line2 img{
+    height: 74%;
+        }
+    }
+    
+  
+@media screen and (max-width: 1140px) {
+   .text1 h2{
+       font-size: 117%;
+   }
+  }
+
+    
+@media screen and (max-width: 1100px) {
+
+    .box{
+        display: flex;
+        justify-content: space-between;
+       width: 86%;
+       height: 60%;
+        margin-left: 10%;
+        margin-right: 4%;
+        padding-top: 3%;
+       }
+       
+       .child{
+        width: 40%;
+        height: 80%;
+       }
+
+       .line1 img{
+        height: 70%;
+            }
+        
+            .line2 img{
+        height: 70%;
+            }
+
+
+            .line1{
+                padding-top: 5%;
+            }
+            
+            .line2{
+                padding-top: 5%;
+            }   
+
+   }
+ 
+
+   @media screen and (max-width: 1067px) {
+
+    .dish h2{
+        font-size: 80%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+       }
+    }
+
+   @media screen and (max-width: 1060px) {
+   .text1 h2{
+    padding-bottom: 4%;
+
+}
+
+.topnav a{
+    font-size: 100%;
+}
+.text1 h2{
+    font-size: 110%;
+}
+
+.mn1 a{
+    font-size: 110%;
+}
+
+.logo{
+    font-size: 90%;
+}
+
+.au{
+    display: flex;
+    justify-content: space-between;
+    width: 6%;
+    margin-left: 2% ;
+    padding-top: 1%;
+}
+
+.parent{
+    margin-top: 10%;
+}
+
+.line1{
+    padding-top: 9%;
+}
+
+.line2{
+    padding-top: 9%;
+}   
+   }
+
+
+   @media screen and (max-width: 1005px) {
+    .dish{
+        padding-left: 0;
+       }
+   }
+     
+
+
+
+   @media screen and (max-width: 965px) {
+   .number{
+     font-size: 90%;
+   }
+   }
+
+   @media screen and (max-width: 951px) {
+   .line1{
+       display: none;
+   }
+
+   .line2{
+    display: none;
+}
+
+.parent{
+   flex-direction: column;
+    width: 30%;
+    border: 0;
+    height: 80%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 6%;
+    padding: 0;
+}
+
+.food{
+    display: flex;
+    width: 100%;
+      justify-content: space-between;
+}
+
+.pn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.dish{
+    padding-left: 5.4%;
+   }
+
+   }
+
+
+   @media screen and (max-width: 945px) {
+    .topnav a{
+        display: none;
+       padding-bottom: 1%;
+      }
+
+      .topnav a.icon{
+        float: right;
+        margin-top: -2%;
+        display: block;
+        color: black;
+        font-size: 25px;
+      }
+      nav{
+        width: 100%;
+        margin-right: 1%;
+        float: right;
+
+      }
+      .topnav.responsive{
+        position: relative;
+        top: -1%;
+        left: -20%;
+      }
+
+      header .topnav.responsive{
+        height: 4%;
+      }
+      .topnav.responsive a.icon{
+        position: absolute;
+        top: 1%;
+        right: -20%;
+      }
+      .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: center;
+      }
+
+      .topnav img{
+          display: none;
+      }
+   }
+
+   @media screen and (max-width: 920px) {
+
+    .box{
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+        height: 60%;
+        margin-left: 10%;
+        margin-right: 5%;
+        padding-top: 4%;
+       }
+       
+       .child{
+        width: 45%;
+        height: 80%;
+       }
+
+
+
+   }
+
+
+
+
+
+   @media screen and (max-width: 872px) {
+
+    .podval{
+        display: flex;
+        justify-content: space-between;
+        width: 96%;
+        margin-left: 2% ;
+        margin-right: 2%;
+        padding-top: 6%;
+    }
+
+   }
+
+
+
+   @media screen and (max-width: 820px) {
+    .podval{
+        display: flex;
+        justify-content: space-between;
+        width: 98%;
+        margin-left: 1% ;
+        margin-right: 1%;
+        padding-top: 6%;
+    }
+    
+    .kl{
+        max-width: 40%;
+    }
+   }
+
+   @media screen and (max-width: 780px){
+    .au{
+    display: flex;
+    justify-content: space-between;
+    width: 7%;
+    margin-left: 2% ;
+    padding-top: 1%;
+}
+   }
+
+
+   @media screen and (max-width: 700px){
+
+.mn1 a{
+    font-size: 100%;
+}
+
+.logo1 p{
+    font-size: 110%;
+}
+
+.logo2 p{
+ font-size: 110%;
+}
+
+
+   }
+
+
+   @media screen and (max-width: 650px){
+    .box{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        height: 60%;
+        margin-left: 3%;
+        margin-right: 2%;
+        padding-top: 4%;
+       }
+       
+       .child{
+        width: 53%;
+        height: 80%;
+       }
+
+
+
+   }
+
+
+   @media screen and (max-width: 630px){
+    .au{
+    display: flex;
+    justify-content: space-between;
+    width: 9%;
+    margin-left: 2% ;
+    padding-top: 1%;
+}
+
+   }
+
+   @media screen and (max-width: 620px){
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 4%;
+         width: 98%;
+       margin-right: 1%;
+       margin-left: 1%;
+     }
+
+.mn1{
+    padding-left: 4%;
+}
+
+
+   }
+
+   @media screen and (max-width: 600px){
+
+
+
+       .parent{
+        flex-direction: column;
+         width: 50%;
+         border: 0;
+         height: 80%;
+         margin-left: 25%;
+         margin-right: 25%;
+         margin-top: 6%;
+         padding: 0;
+     }
+
+.link2{
+ font-size: 90%;
+}
+
+.link1{
+    font-size: 90%;
+}
+
+.call a{
+    font-size: 90%;
+}
+
+.number p{
+    font-size: 100%;
+}
+
+.logo2 p{
+    font-size: 100%;
+}
+
+    .box{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+       width: 90%;
+       height: 60%;
+        margin-left: auto;
+        padding-top: 1%;
+       }
+        
+       .child{
+      width:100%;
+       }
+
+   }
+
+   @media screen and (max-width: 510px){
+    .logo1{
+        display: none;
+    }
+
+    .mn1 img{
+        display: none;
+    }
+    
+.mn1{
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+.mn img{
+    width: 90%;
+    height: 90%;
+}
+.logo1{
+    display: none;
+}
+
+
+.logo2{
+    display: none;
+}
+
+.arrow{
+display: none;
+}
+
+.link1{
+display: none;
+}
+footer{
+    min-height: 40vh;
+
+}
+
+   }
+
+   @media screen and (max-width: 580px){
+  
+
+.topnav.responsive{
+  position: relative;
+  top: -1%;
+  left: -15%;
+}
+
+
+.topnav.responsive a.icon{
+  position: absolute;
+  top: 1%;
+  right: -15%;
+}
+
+    .logo {
+      margin-bottom: -2%;
+    }
+     }
+
+
+
+
+   @media screen and (max-width: 490px){
+    .topnav.responsive{
+        position: relative;
+        top: -1%;
+        left: -12%;
+      }
+
+      
+.topnav.responsive a.icon{
+    position: absolute;
+    top: 1%;
+    right: -12%;
+  }
+
+  .au{
+    width: 13%;
+  }
+   }
+  
+   @media screen and (max-width: 460px){
+
+    
+        .logo {
+          margin-bottom: -3%;
+        }
+
+  
+    
+         }
+
+   @media screen and (max-width: 440px){
+    .topnav.responsive{
+        position: relative;
+        top: -1%;
+        left: -7%;
+      }
+
+
+      .topnav.responsive a.icon{
+        position: absolute;
+        top: 1%;
+        right: -7%;
+      }
+      .symbol img{
+        height: 80%;
+        width: 85%;
+      }
+   }
+
+ 
+ 
+
+   @media screen and (max-width: 400px){
+   
+    .mn img{
+        width: 80%;
+        height: 80%;
+    }
+
+ 
+.au{
+    width: 15%;
+}
+
+
+
+.post{
+    padding-bottom: 30%;
+}
+
+.podval{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin-left: 1% ;
+    margin-right: 1%;
+    padding-top: 6%;
+}
+
+.kl{
+    max-width: 50%;
+}
+   }
+
+   @media screen and (max-width: 380px){
+
+    .mn1 img{
+        display: none;
+    }
+
+
+
+   }
+
+
+   
+   @media screen and (max-width: 370px){
+    .topnav.responsive{
+        position: relative;
+        top: -1%;
+        left: -5%;
+      }
+
+
+      .topnav.responsive a.icon{
+        position: absolute;
+        top: 1%;
+        right: -5%;
+      }
+
+   }
